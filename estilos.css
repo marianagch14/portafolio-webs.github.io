@@ -1,0 +1,75 @@
+.body{
+    background-color: #d8adfc;
+}
+
+
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+.bratz{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+.seccion{
+    text-align: center;
+}
+.front{
+    width: 250px;
+    height: 200px;
+    margin: 50px;
+    border-radius: 5%;
+}
+
+.c{
+    color: rgb(87, 66, 161);
+}
+.e{
+    color: #b92be4;
+}
+.columna{
+    border: 2px solid #92699e;
+    padding: 20px;
+}
+.contenedor-experiencia{
+    margin: 50px;
+    text-align: center;
+
+}
+
+.experiencia {
+    padding: 40px;
+}
+
+.experiencia .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experiencia .columna:hover {
+    color: rgb(255, 255, 255);
+    background-color: #f333e3;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #6b3bda;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.seccion-articulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}

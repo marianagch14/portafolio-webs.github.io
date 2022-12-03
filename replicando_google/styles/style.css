@@ -1,0 +1,110 @@
+ body {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .barra-navegacion {
+     color: green;
+     list-style: none;
+     display: flex;
+     justify-content: flex-end;
+ }
+ 
+ ul,
+ li {
+     margin-right: 20px;
+ }
+ 
+ a {
+     font-size: 15px;
+     color: black;
+     text-decoration: none;
+ }
+ 
+ main {
+     margin-top: 250px;
+ }
+ 
+ .google-img {
+     width: 300px;
+     height: 100px;
+     margin: 0 auto;
+ }
+ 
+ .seccion-img {
+     text-align: center;
+ }
+ 
+ .contenedor-buscador {
+     width: 600px;
+     border: 2px solid;
+     border-color: aqua;
+     border-radius: 100px;
+     margin: 0 auto;
+     padding-right: 15px;
+     padding-left: 15px;
+ }
+ 
+ .seccion-buscador {
+     margin-top: 30px;
+ }
+ 
+ .input-buscador {
+     width: 520px;
+     height: 40px;
+     border-style: none;
+ }
+ 
+ .iconos-buscador {
+     padding: 3px;
+ }
+ 
+ .botones {
+     text-align: center;
+ }
+ 
+ .boton-google {
+     width: 150px;
+     height: 30px;
+     margin: 20px;
+     margin-top: 30px;
+     text-align: center;
+     border-style: none;
+     background-color: rgb(247, 247, 247);
+ }
+ 
+ footer {
+     background-color: rgb(236, 236, 236);
+     width: 100%;
+     height: 50px;
+     font-size: 13px;
+     position: absolute;
+     bottom: 0;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     align-items: center;
+ }
+ 
+ footer ul {
+     margin: 10px;
+     list-style: none;
+     display: flex;
+     padding-left: 0;
+ }
+ 
+ footer a {
+     color: rgb(124, 124, 124);
+ }
+ 
+ .footer-izquierdo {
+     justify-self: left;
+ }
+ 
+ .footer-derecho {
+     justify-self: right;
+     color: red;
+ }
+ 
+ footer li:hover {
+     list-style: square;
+ }
